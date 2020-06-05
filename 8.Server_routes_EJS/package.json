@@ -1,0 +1,15 @@
+{
+  "name": "8.server_routes_ejs",
+  "version": "1.0.0",
+  "description": "- 1 、Nodejs 静态文件托管\r - 2 、路由\r - 3 、初识EJS模块引擎\r - 4 、Get、Post",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.3"
+  }
+}

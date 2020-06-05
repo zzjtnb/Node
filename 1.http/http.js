@@ -12,7 +12,7 @@ const host = "localhost"
  */
 http.createServer(function (request, response) {
   console.log(request.url); //获取请求的url
-  response.writeHead(200, { 'Content-Type': 'text/html;charset="untf-8"' }); //设置响应头和编码
+  response.writeHead(200, { 'Content-Type': 'text/html;charset="utf-8"' }); //设置响应头和编码
   response.write('<head><meta charset="UTF-8"></head>') //解决浏览器乱码
   response.write('this is node js')
   response.end();//结束响应(这句话必须要写)

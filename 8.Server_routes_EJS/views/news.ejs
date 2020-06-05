@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新闻模块</title>
+</head>
+
+<body>
+  <h1>EJS模板引擎</h1>
+  <h2>这是一个登录页面</h2>
+  <h3><%=msg%></h3>
+  <br>
+  <ul>
+    <% for(let i=0;i<list.length;i++){ %>
+    <li><%=list[i].title%></li>
+    <% } %>
+  </ul>
+</body>
+
+</html>

@@ -14,7 +14,7 @@ const port = 3000;
  */
 http.createServer(function (request, response) {
 
-  response.writeHead(200, { 'Content-Type': 'text/html;charset="untf-8"' }); //设置响应头和编码
+  response.writeHead(200, { 'Content-Type': 'text/html;charset="utf-8"' }); //设置响应头和编码
   response.write('<head><meta charset="UTF-8"></head>') //解决浏览器乱码
   response.write('Hello Node.js')
   response.write('<br>')

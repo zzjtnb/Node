@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*link表示未被访问时*/
+a:link{
+color: coral;
+text-decoration: none;/*链接无下划线*/
+}
+/* hover表示鼠标指示时 */
+a:hover{
+color: rgb(14, 160, 153);
+}
+/* active表示鼠标点击时 */
+a:active{
+color: rgb(10, 204, 75);
+}
+/* visited表示被访问过后 */
+a:visited{
+color: rgb(9, 157, 226);
+}
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: gainsboro;
+}
