@@ -3,10 +3,10 @@
  */
 const express = require('express');
 const user = express.Router();
-const bcrypt = require('../util/bcryptjs');
+const bcrypt = require('../utils/bcryptjs');
 const jwt = require('jsonwebtoken');
 process.env.SECRET_KEY = 'secret';//定义到环境变量
-const userModule = require('../modules/users');
+const userModule = require('../model/users');
 //http://localhost:3000/api/v1/test
 user.get('/test', (req, res) => {
   res.send({ msg: "测试接口" });
@@ -30,7 +30,7 @@ user.post('/login', (req, res) => {
       res.status(400).json({ error: "user dose not exist" })
     }
   }).catch((err) => {
-    console.log(err);
+    // console.log(err);
     res.status(400).json({ error: err })
   });
 })

@@ -41,7 +41,10 @@ npm i bcryptjs -S
 ```js
 npm i jsonwebtoken -S
 ```
-
+- 8.安装EJS  映射渲染html
+```js
+npm i ejs -S
+```
 以上依赖一句话安装
 ```js
 npm i nodemon express sequelize mysql2 body-parser bcryptjs jsonwebtoken -S
@@ -58,3 +61,17 @@ npm install
 ```js
 npm run dev
 ```
+## 三.数据库
+- 1.打开数据库创建数据库名nodesql
+- 2.在数据库名nodesql右键运行SQL文件
+  
+## 四.项目目录
+- api       负责接口管理
+- config    数据库配置文件
+- dao       数据库持久化
+- database  储存静态数据
+- model   模型管理、数据操作
+- public    存放资源文件
+- routers   管理路由
+- utils     管理各类工具
+- views     视图层
