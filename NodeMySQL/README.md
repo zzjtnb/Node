@@ -45,9 +45,10 @@ npm i jsonwebtoken -S
 ```js
 npm i ejs -S
 ```
+
 以上依赖一句话安装
 ```js
-npm i nodemon express sequelize mysql2 body-parser bcryptjs jsonwebtoken -S
+npm i nodemon express sequelize mysql2 body-parser bcryptjs jsonwebtoken ejs -S
 ```
 以上为开发时的过程
 
