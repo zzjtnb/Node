@@ -108,3 +108,4 @@ async function main() {
   });
 };
 main();//[ 'css', 'images', 'js' ]
+module.exports = main
